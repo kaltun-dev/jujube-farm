@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome kaltun-dev,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
@@ -106,3 +106,13 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+
+project jujube farm
+
+
+problems
+ css wasnt beeing applied to html page in the browsser
+ ive linked they sttle sgeets in all the pages but it wasnt linking ive tried stack and google but found nothing. 
+ 
