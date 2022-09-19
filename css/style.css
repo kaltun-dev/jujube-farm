@@ -1,18 +1,24 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+</style>
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'oswald' 'sans-serif';
+    font-family: 'Montserrat' 'sans-serif';
 }
 
-.logo {
+#logo {
 
     color: #47684C;
+    text-decoration: none;
     text-align: center;
+    display:block;
 }
 
 nav ul {
     list-style: none;
-    background-color: #47684C;
+    background-color: #204c39;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -21,10 +27,20 @@ nav ul {
 
 nav li {
     font-size: 1.2em;
-    color: white;
     line-height: 40px ;
     height: 40px;
     display: inline-block;
     margin: 2.5%;
 
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+
+}
+
+nav a:hover {
+    background-color:#fff;
+    color: #204c39;
 }
