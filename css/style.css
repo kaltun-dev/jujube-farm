@@ -1,6 +1,6 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-</style>
+
 
 body {
     margin: 0;
@@ -16,7 +16,7 @@ body {
     display:block;
 }
 
-nav ul {
+.menue ul {
     list-style: none;
     background-color: #204c39;
     text-align: center;
@@ -25,7 +25,7 @@ nav ul {
 
 }
 
-nav li {
+.menue li {
     font-size: 1.2em;
     line-height: 40px ;
     height: 40px;
@@ -33,14 +33,14 @@ nav li {
     margin: 2.5%;
 
 }
-nav a {
+.menue a {
     text-decoration: none;
     color: #fff;
-    display: block;
+    display: inline-block;
 
 }
 
-nav a:hover {
+.menue a:hover {
     background-color:#fff;
     color: #204c39;
 }
