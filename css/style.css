@@ -10,7 +10,7 @@ body {
 
 #logo {
 
-    color: #47684C;
+    color: #368a11;
     text-decoration: none;
     text-align: center;
     display:block;
@@ -20,7 +20,7 @@ body {
 
 .menue ul {
     list-style: none;
-    background-color: #000000;
+    background-color: #999999;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -47,7 +47,7 @@ body {
 
 .menue a:hover {
     background-color:#fff;
-    color: #204c39;
+    color: #368a11;
 }
 
 #hero-image {
@@ -76,6 +76,7 @@ background-position: center;
     text-align: center;
     margin: 0 auto;
     font-family: 'montserrat';
+    color: #368a11;
 
 }
 
@@ -109,4 +110,10 @@ font-family: 'montserrat';
 padding: 30px;
 
 
+}
+
+#comevisit{
+    font-family: 'montserrat';
+    text-align: center;   
+    color:#368a11 ;
 }
