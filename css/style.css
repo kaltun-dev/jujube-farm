@@ -47,17 +47,19 @@ body {
     color: #204c39;
 }
 
-.hero-image {
+#hero-image {
 
-    background-image: url('images/hero-image.jpg');
+background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 69vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden; 
 
 }
  
-
-.hero-image-container {
-    max-width: 80%;
-    height: 100%;
-}
 
 .why-us {
     text-decoration: none;
