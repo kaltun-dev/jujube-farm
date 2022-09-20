@@ -45,9 +45,14 @@ body {
     color: #204c39;
 }
 
-#hero-image {
- height: auto;
- max-width: 100%;
+.hero-image {
  
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 80%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 
 }
