@@ -62,3 +62,38 @@ body {
     max-width: 80%;
     height: 100%;
 }
+
+.why-us {
+    text-decoration: none;
+    font-family: 'Montserrat' 'sans-serif';
+    color:#000000;
+    height:600px;
+
+}
+.container1 {
+    padding-top: 30px;
+    float: left;
+    text-align: center;
+    width: 33%;
+    background-color: #47684C;
+
+}
+
+.container2 {
+    padding-top: 30px;
+    
+    text-align: center;
+    width: 33%;
+    background-color: #9789b4;
+    float: right;
+
+
+}
+
+.container3 {
+width: 33%;
+margin: 0 auto;
+text-align: center;
+border: 3px;
+border-color: #000000;
+}
