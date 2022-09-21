@@ -19,6 +19,8 @@ body {
     float: left;
 }
 
+/* this line of code bellow wont work */
+
 .header-nav {
     background-color: #bcbcbc;;
 }
@@ -107,13 +109,13 @@ background-position: center;
 
 }
 
-.container3 {
-width: 33%;
-margin: 0 auto;
-text-align: center;
-background-color: #ffffff;
-font-family: 'montserrat';
-padding: 30px;
+ .container3 {
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'montserrat';
+    padding: 30px;
 
 
 }
@@ -128,5 +130,66 @@ h4 p {
     line-height: 1.2rem;
     text-align: center;
     
+}
+
+/* This line of code wont work too */
+.footer {
+    background-color: #bcbcbc;
+    padding-top: 1%;
+    padding-bottom: 30px;
+}
+
+#footerlogo {
+    color: #368a11;
+    text-align: center;
+    font-family: 'montserrat';
+    font-size: 150%;
+}
+
+.opening-times {
+    
+    float: left;
+    text-align: center;
+    width: 33%;
+    font-family: 'montserrat';
+}
+
+.address {
+
+    text-align: center;
+    width: 33%;
+    float: right;
+    font-family: 'montserrat';
+}
+
+.socials {
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'montserrat';
+    padding: 30px;
+        
+}
+
+.socials-list {
+
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.socials-list > li {
+    display: inline;
+}
+
+.socials-list i {
+    font-size: 100;
+    margin: 1%;
+    padding:5%;
+    color: #368a11;
+}
+
+.footer-heading {
+    color: #368a11;
 }
 
