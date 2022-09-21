@@ -28,10 +28,7 @@ font-size: 110%;
 letter-spacing: 4px;
 }
 
-.menue ul {
-   
 
-}
 
 .menue li {
    float: right;
@@ -49,13 +46,14 @@ letter-spacing: 4px;
     
    .menue, #logo {
     line-height: 30px;
+    
 
    }
 
 
 .menue a:hover {
-    background-color:#fff;
-    color: #368a11;
+    background-color:#368a11;
+    color: #fff;
 }
 
 #hero-image {
@@ -124,4 +122,8 @@ padding: 30px;
     font-family: 'montserrat';
     text-align: center;   
     color:#368a11 ;
+}
+
+h4 p {
+    line-height: 1.2rem;
 }
