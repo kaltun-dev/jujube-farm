@@ -48,11 +48,11 @@ letter-spacing: 4px;
     font-family: 'montserrat';
 }
     
-   .menue, #logo {
+.menue, #logo {
     line-height: 30px;
     
 
-   }
+}
 
 
 .menue a:hover {
@@ -81,7 +81,9 @@ background-position: center;
     text-decoration: none;
     font-family: 'Montserrat' 'sans-serif';
     color:#000000;
-    height:600px;
+    height:100px;
+    padding-top: 10%;
+    padding-bottom: 20%;
 }
  .why-us h3 {
     color: #368a11;
@@ -129,6 +131,12 @@ background-position: center;
     color:#368a11 ;
 }
 
+hr {
+
+    border: 2px solid #368a11;
+    width: 50%;
+
+}
 
 /* comments */
 .footer {
@@ -195,28 +203,34 @@ background-position: center;
     color: #368a11;
 }
 
+/* information section on main page */
 .side-right {
     text-align: center;
     width: 40%;
     float: right;
+    padding-right: 30px;
+    
 }
 
 .side-left {
     text-align: center;
     width: 40%;
     float: left;
+    padding-left: 30px;
+    
+
 }
 
 #side-image {
-    width: 500px;
-    height: 500px;
-    padding: 50px;
-    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    
     margin: 0 auto;
     
 }
 .side-right p {
     font-size: 20px;
-    font-weight: 400;
     line-height: 30px;
+    
 }
+
