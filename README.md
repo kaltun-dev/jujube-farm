@@ -29,3 +29,20 @@ container3 center div icon is not diplaying even though the other icons are disp
 i have replaced it with another icon and that seemed to have worked. 
 
 
+problem 5
+
+footer background picture wont fit the whole screen.
+
+ive removed the padding 33px by using the inspect element and it worked.
+
+problem 6
+
+
+cant seem to change nav background color.
+
+
+problem 7
+
+font family is not sticking to elements unless i repeatedly use it in indivitual css ruls.
+
+
