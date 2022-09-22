@@ -207,7 +207,7 @@ hr {
 /* information section on main page */
 .side-right {
     text-align: center;
-    width: 40%;
+    width: 50%;
     float: right;
     padding-right: 30px;
     
@@ -215,25 +215,31 @@ hr {
 
 .side-left {
     text-align: center;
-    width: 40%;
+    width: 50%;
     float: left;
     padding-left: 30px;
     
 
 }
 
-#side-image {
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    
-}
 .side-right p {
     font-size: 20px;
     line-height: 30px;
     
 }
 
+.about-info {
+   height: 300px;
+     
+}
+
+#side-image {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+/* about us page css */
 #about-us {
     font-size: 18px;
     line-height: 24px;
