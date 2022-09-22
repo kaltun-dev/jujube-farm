@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 html {
     font-family: 'montserrat';
 }
@@ -126,9 +127,9 @@ background-position: center;
 }
 
 #comevisit{
-    font-family: 'montserrat';
     text-align: center;   
     color:#368a11 ;
+    padding-bottom: 10%;
 }
 
 hr {
@@ -224,7 +225,6 @@ hr {
 #side-image {
     width: 400px;
     height: 400px;
-    
     margin: 0 auto;
     
 }
@@ -233,4 +233,13 @@ hr {
     line-height: 30px;
     
 }
+
+#about-us {
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
 
