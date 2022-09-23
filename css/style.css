@@ -261,6 +261,51 @@ hr {
 
 }
 
+/* produce page css*/
+
+.our-produce-title h1{
+    width:100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #fff;
+    color: #000000;
+    
+ } 
+ 
+
+ .produce-row{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+ }
+ 
+ .produce-colms {
+    flex: 1;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    text-align: left;
+
+ }
+.produce-colms img{
+    width: 90%;
+    border-radius: 10px;
+
+}
+
+.produce-colms p{
+    padding: 0;
+
+} 
+
+/*prtend section*/
+.pretend-row{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
 /*@media queries*/
 @media screen and (max-width: 960px) {
     .menue {
