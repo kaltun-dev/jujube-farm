@@ -71,9 +71,10 @@ background-position: center;
     text-decoration: none;
     font-family: 'Montserrat' 'sans-serif';
     color:#000000;
-    height:100px;
     padding-top: 10%;
     padding-bottom: 20%;
+    width:100%;
+    margin: auto;
 }
  .why-us h3 {
     color: #368a11;
@@ -110,7 +111,7 @@ background-position: center;
     width: 33%;
     margin: 0 auto;
     text-align: center;
-    padding: 30px;
+    padding-top: 30px;
 
 
 }
@@ -224,11 +225,12 @@ hr {
 
 /* our-farm main page section */
  .our-farm-title {
-    width:80%;
+    width:100%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
-    
+    padding-top: 50px;
+    background-color: #d9ead3;
+    color: #000000;
  }
 
  .row{
@@ -240,11 +242,12 @@ hr {
     flex: 1;
     border-radius: 10px;
     margin-bottom: 5%;
+    margin-left: 5%;
     text-align: left;
 
  }
 .our-farm-colms img{
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
 
 }
@@ -255,7 +258,7 @@ hr {
 }
 
 /*@media queries*/
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 960px) {
     .menue {
         clear: left;
         float: left;
@@ -263,16 +266,50 @@ hr {
         margin-bottom: 20px;
         line-height: 25px;
     }
+    #logo {
+        height: 30px;
+    }
     
+    
+    
+}
+@media screen and (max-width: 830px) {
+    
+    .why-us {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .why-us h3 {
+        width: 100%;
+        text-align: center;
+    }
+    .container1, .container2, .container3 {
+        width: 100%     
+    }
+}
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        }
+        .our-farm-colms {
+            width: 85%; 
+            margin-left: 10%;
+        }    
 
 }
+
 @media screen and (max-width: 500px) {
     #logo {
-        font-size: 100%;
+        font-size: 90%;
         height: 20px;
     }
     .menue {
-        font-size: 50%;
-        
+        font-size: 50%; 
     }
+   
+    
+
 }
