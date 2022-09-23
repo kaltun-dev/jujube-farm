@@ -22,18 +22,11 @@ body {
     float: left;
 }
 
-/* this line of code bellow wont work */
-
-.header-nav {
-    background-color: #bcbcbc;;
-}
 
 .menue {
 font-size: 110%;
 letter-spacing: 4px;
 }
-
-
 
 .menue li {
    float: right;
@@ -67,10 +60,6 @@ background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
  height: 69vh;
- display: flex;
- justify-content: center;
- align-items: center;
- overflow: hidden; 
  width: 100%;
 
 }
@@ -206,18 +195,23 @@ hr {
 
 /* information section on main page */
 
-.about-info {
+.about-info-row {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    flex-basis: 300px;
-    justify-content: center;
-    border: 10px solid;
+    
+}
+.info-row {
+    flex: 1;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.info-row img{
+    width: 100%;
+    border-radius: 10px;
 
 }
-
-
-
 
 /* about us page css */
 #about-us {
@@ -228,4 +222,57 @@ hr {
     text-align: center;
 }
 
+/* our-farm main page section */
+ .our-farm-title {
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+ }
 
+ .row{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+ }
+ .our-farm-colms {
+    flex: 1;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+
+ }
+.our-farm-colms img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.our-farm-colms p{
+    padding: 0;
+
+}
+
+/*@media queries*/
+@media screen and (max-width: 950px) {
+    .menue {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    
+
+}
+@media screen and (max-width: 500px) {
+    #logo {
+        font-size: 100%;
+        height: 20px;
+    }
+    .menue {
+        font-size: 50%;
+        
+    }
+}
