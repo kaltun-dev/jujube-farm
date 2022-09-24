@@ -299,11 +299,56 @@ hr {
     margin-right: 10%;
     text-align: center;
 }
-*/
 /*ends here*/
 
 
 /*@media queries*/
+
+@media screen and (max-width: 500px) {
+    #logo {
+        font-size: 90%;
+        height: 20px;
+    }
+    .menue {
+        font-size: 50%; 
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .our-farm-row {
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        }
+        .our-farm-colms {
+            width: 85%; 
+            margin-left: 10%;
+        }    
+    
+
+}
+@media screen and (max-width: 830px) {
+    
+    .why-us {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .why-us h3 {
+        width: 100%;
+        text-align:center;
+    }
+    .container1, .container2, .container3 {
+        width: 100%     
+    }
+    .container2 {
+        padding-top:0px;
+    }
+    .container1 {
+        padding-bottom: 0px;
+    }
+}
 
 @media screen and (max-width: 960px) {
     .menue {
@@ -322,50 +367,4 @@ hr {
     
     
 }
-@media screen and (max-width: 830px) {
-    
-    .why-us {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    .why-us h3 {
-        width: 100%;
-        text-align: center;
-    }
-    .container1, .container2, .container3 {
-        width: 100%     
-    }
-    .container2 {
-        padding-top:0px;
-    }
-    .container1 {
-        padding-bottom: 0px;
-    }
-}
-@media screen and (max-width: 700px) {
-    .our-farm-row {
-        flex-direction: column;
-        flex-wrap: wrap;
-        
-        }
-        .our-farm-colms {
-            width: 85%; 
-            margin-left: 10%;
-        }    
-    
 
-}
-
-@media screen and (max-width: 500px) {
-    #logo {
-        font-size: 90%;
-        height: 20px;
-    }
-    .menue {
-        font-size: 50%; 
-    }
-   
-    
-
-}
