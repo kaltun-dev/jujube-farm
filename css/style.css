@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+/* general css her*/
 html {
     font-family: 'montserrat';
 }
@@ -10,6 +10,20 @@ body {
     padding: 0;
     font-family: 'Montserrat' 'sans-serif';
 }
+ 
+.section-heading {
+    width:100%;
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+
+ }
+
+ p {
+    font-size:20px;
+ }
+
+/* header section here. nav section was inspired by love running project*/
 
 #logo {
 
@@ -21,7 +35,6 @@ body {
     font-size: 150%;
     float: left;
 }
-
 
 .menue {
 font-size: 110%;
@@ -44,16 +57,14 @@ letter-spacing: 4px;
     
 .menue, #logo {
     line-height: 30px;
-    
-
 }
-
 
 .menue a:hover {
     background-color:#368a11;
     color: #fff;
 }
 
+/* hero image section*/
 #hero-image {
 
 background-position: center;
@@ -62,16 +73,11 @@ background-position: center;
  height: 65vh;
 
 }
- p {
-    font-size:20px;
- }
-
+ /* why us section. this section was inspired from love running project*/
 .why-us {
     text-decoration: none;
     font-family: 'Montserrat' 'sans-serif';
     color:#000000;
-    padding-top: 20%;
-    padding-bottom: 20%;
     width:100%;
     margin: auto;
 }
@@ -80,22 +86,12 @@ background-position: center;
     padding: 20px;
  }
 
-#why-buy-heading {
-    text-align: center;
-    margin: 0 auto;
-    font-family: 'montserrat';
-    color: #000000;
-
-}
-
 .container1 {
     padding-top: 30px;
     float: left;
     text-align: center;
     width: 33%;
     padding-bottom: 30px;
-    
-
 }
 
 .container2 {
@@ -104,9 +100,6 @@ background-position: center;
     width: 33%;
     float: right;
     padding-bottom: 30px;
-    
-
-
 }
 
  .container3 {
@@ -115,29 +108,82 @@ background-position: center;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-
-
-}
-/*
-#comevisit{
-    text-align: center;   
-    color:#368a11 ;
-    padding-bottom: 10%;
 }
 
-hr {
+/* our-farm section */
 
-    border: 2px solid #368a11;
-    width: 50%;
-
+ .our-farm-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: #d9ead3;
+ }
+ 
+ .our-farm-colms {
+    flex: 1;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    text-align: left;
+ }
+.our-farm-colms img{
+    width: 90%;
+    border-radius: 10px;
 }
-*/
 
-/* comments */
+.our-farm-colms p{
+    padding: 0;
+}
+
+/* produce page starts here*/
+
+.our-produce-title h1{
+    width:100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #fff;
+    color: #000000;
+ } 
+ 
+ .produce-row{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+ }
+ 
+ .produce-colms {
+    flex: 1;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    text-align: left;
+ }
+.produce-colms img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+.produce-colms p{
+    padding: 0;
+} 
+/* page ends here*/
+
+/* about us page starts here */
+
+#about-us {
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+/*page ends here*/
+
+/* footer section. this section was inspired from the love running project */
 .footer {
     padding-top: 1%;
     padding-bottom: 30px;
-
 }
 
 .footer p {
@@ -198,110 +244,6 @@ hr {
     color: #368a11;
 }
 
-/* information section on main page */
-
-/*.about-info-row {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    
-}
-.info-row {
-    flex: 1;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-}
-.info-row img{
-    width: 100%;
-    border-radius: 10px;
-
-}*/
-
-
-/* our-farm main page section */
- /* .our-farm-title {
-    width:100%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-    background-color: #d9ead3;
-    color: #000000;
- }
- */
-
-
- .flex-container {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
- }
- 
- .our-farm-colms {
-    flex: 1;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    text-align: left;
- }
-.our-farm-colms img{
-    width: 90%;
-    border-radius: 10px;
-}
-
-.our-farm-colms p{
-    padding: 0;
-}
-
-/* produce page css*/
-
-.our-produce-title h1{
-    width:100%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-    background-color: #fff;
-    color: #000000;
-    
- } 
- 
- .produce-row{
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
- }
- 
- .produce-colms {
-    flex: 1;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    text-align: left;
-
- }
-.produce-colms img{
-    width: 90%;
-    border-radius: 10px;
-
-}
-
-.produce-colms p{
-    padding: 0;
-
-} 
-
-/* about us page css*/
-
-#about-us {
-    font-size: 18px;
-    line-height: 24px;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-}
-/*ends here*/
-
-
 /*@media queries*/
 
 @media screen and (max-width: 500px) {
@@ -321,18 +263,25 @@ hr {
         flex-wrap: wrap;
         
         }
-        .our-farm-colms {
+    .our-farm-colms {
             width: 85%; 
             margin-left: 10%;
         }    
-    
+    .produce-row {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .produce-colms {
+        width: 85%; 
+            margin-left: 10%;
+        }    
+    }
 
 }
 @media screen and (max-width: 830px) {
     
     .why-us {
         width: 90%;
-        height: 1200px;
         margin: 0 auto;
     }
     .why-us h3 {
