@@ -118,7 +118,7 @@ background-position: center;
 
 
 }
-
+/*
 #comevisit{
     text-align: center;   
     color:#368a11 ;
@@ -131,6 +131,7 @@ hr {
     width: 50%;
 
 }
+*/
 
 /* comments */
 .footer {
@@ -217,17 +218,9 @@ hr {
 
 }*/
 
-/* about us page css */
-#about-us {
-    font-size: 18px;
-    line-height: 24px;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-}
 
 /* our-farm main page section */
- .our-farm-title {
+ /* .our-farm-title {
     width:100%;
     margin: auto;
     text-align: center;
@@ -235,29 +228,29 @@ hr {
     background-color: #d9ead3;
     color: #000000;
  }
+ */
 
- .our-farm-row {
+
+ .flex-container {
     display: flex;
     flex-direction: row;
     gap: 2rem;
  }
+ 
  .our-farm-colms {
     flex: 1;
     border-radius: 10px;
     margin-bottom: 5%;
     margin-left: 5%;
     text-align: left;
-
  }
 .our-farm-colms img{
     width: 90%;
     border-radius: 10px;
-
 }
 
 .our-farm-colms p{
     padding: 0;
-
 }
 
 /* produce page css*/
@@ -272,7 +265,6 @@ hr {
     
  } 
  
-
  .produce-row{
     display: flex;
     flex-direction: row;
@@ -298,8 +290,21 @@ hr {
 
 } 
 
+/* about us page css*/
+
+#about-us {
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+*/
+/*ends here*/
+
 
 /*@media queries*/
+
 @media screen and (max-width: 960px) {
     .menue {
         clear: left;
