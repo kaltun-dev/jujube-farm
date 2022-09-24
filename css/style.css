@@ -199,7 +199,7 @@ hr {
 
 /* information section on main page */
 
-.about-info-row {
+/*.about-info-row {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -215,7 +215,7 @@ hr {
     width: 100%;
     border-radius: 10px;
 
-}
+}*/
 
 /* about us page css */
 #about-us {
@@ -236,7 +236,7 @@ hr {
     color: #000000;
  }
 
- .row{
+ .our-farm-row {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -298,12 +298,6 @@ hr {
 
 } 
 
-/*prtend section*/
-.pretend-row{
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-}
 
 /*@media queries*/
 @media screen and (max-width: 960px) {
@@ -345,7 +339,7 @@ hr {
     }
 }
 @media screen and (max-width: 700px) {
-    .row {
+    .our-farm-row {
         flex-direction: column;
         flex-wrap: wrap;
         
@@ -354,6 +348,7 @@ hr {
             width: 85%; 
             margin-left: 10%;
         }    
+    
 
 }
 
