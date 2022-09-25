@@ -3,6 +3,8 @@
 /* general css her*/
 html {
     font-family: 'montserrat';
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -300,10 +302,10 @@ text-transform: uppercase;
     .menue {
         font-size: 50%; 
     }
-    #hero-image {
-        width: 55vh;
-    }
-
+    .produce-colms p {
+        font-size: 2px;
+ 
+     }
 }
 
 @media screen and (max-width: 700px) {
@@ -313,8 +315,8 @@ text-transform: uppercase;
         
         }
     .our-farm-colms {
-            width: 85%; 
-            margin-left: 10%;
+        width: 85%; 
+        margin-left: 10%;
         }    
     .produce-row {
         flex-direction: column;
@@ -322,8 +324,12 @@ text-transform: uppercase;
     }
     .produce-colms {
         width: 85%; 
-            margin-left: 10%;
+        margin-left: 10%;
         }    
+    .produce-colms p {
+       font-size: 20px;
+
+    }
     }
 
 @media screen and (max-width: 830px) {
@@ -345,6 +351,10 @@ text-transform: uppercase;
     .container1 {
         padding-bottom: 0px;
     }
+    .produce-colms p {
+        font-size: 20px;
+ 
+     }
 }
 
 @media screen and (max-width: 960px) {
@@ -358,10 +368,9 @@ text-transform: uppercase;
     #logo {
         height: 30px;
     }
-    #hero-image {
-        height: 75vh;
-    }
-    
-    
+    .produce-colms p {
+        font-size: 20px;
+ 
+     }  
 }
 
