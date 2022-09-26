@@ -17,7 +17,13 @@ body {
     color: #000000;
     font-size: 25px;
 
- }
+}
+#bio-heading {
+    font-size:19px;
+    width:100%;
+    text-align: center;
+    color: #368a11;
+}
 
  p {
     font-size:20px;
