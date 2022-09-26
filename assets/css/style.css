@@ -69,8 +69,8 @@ font-weight: 200;
 }
 
 .menue a:hover {
-    background-color:#368a11;
-    color: #fff;
+   
+    color: #368a11;
 }
 
 /* hero image section */
@@ -168,9 +168,11 @@ text-transform: uppercase;
     margin-left: 5%;
     text-align: left;
  }
+
 .our-farm-colms img{
     width: 90%;
     border-radius: 10px;
+    
 }
 
 .our-farm-colms p{
