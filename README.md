@@ -52,4 +52,10 @@ assets folder file paths error
 hero image ssizing 
 git pushing error
 
+big eeros
+
+page wasnt responive in small 300 to 400px screens 
+
+after 2 days i found out the problem the why-us h3. which had a padding of 30px. make the entire page unresponsive.
+
 

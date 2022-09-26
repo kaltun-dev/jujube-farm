@@ -62,6 +62,7 @@ font-weight: 200;
     color: #368a11;
     display: inline-block;
     font-family: 'montserrat';
+    font-weight: bold;
 }
     
 .menue, #logo {
@@ -77,7 +78,7 @@ font-weight: 200;
 
 .hero1 {
     background-image: url('/assets/images/farm-image13.jpg');
-    width: 90%;
+    width: 100%;
     height: 40vh;
     background-size: cover;
     background-position: center;
@@ -125,7 +126,7 @@ text-transform: uppercase;
 }
  .why-us h3 {
     color: #368a11;
-    padding: 20px;
+    
  }
 
 .container1 {
@@ -153,12 +154,20 @@ text-transform: uppercase;
 }
 
 /* our-farm section */
+.section-heading-2 {
+    width:100%;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    background-color: #d9ead3;
 
+}
  .our-farm-row {
     display: flex;
     flex-direction: row;
     gap: 2rem;
     background-color: #d9ead3;
+    
  }
  
  .our-farm-colms {
@@ -320,9 +329,22 @@ iframe {
     .menue {
         font-size: 40%; 
     }
+    .hero-text {
+        font-size: 10px;
+    }
     .produce-colms p {
         font-size: 16px;
  
+     }
+     .produce-colms img {
+        height: 300px;
+        width: 300px;
+     }
+     #bio-heading {
+        font-size: 16px;
+     }
+     .section-heading {
+        font-size: 20px;
      }
 
 }
@@ -332,11 +354,17 @@ iframe {
         flex-direction: column;
         flex-wrap: wrap;
         
+    }
+    .hero-text {
+            font-size: 10px;
         }
+    #bio-heading {
+            font-size: 15px;
+    }
     .our-farm-colms {
         width: 85%; 
         margin-left: 10%;
-        }    
+    }    
     .produce-row {
         flex-direction: column;
         flex-wrap: wrap;
@@ -349,10 +377,16 @@ iframe {
        font-size: 20px;
 
     }
+    .section-heading {
+        font-size: 20px;
+    }
     }
 
 @media screen and (max-width: 830px) {
-    
+
+    .section-heading {
+        font-size: 20px;
+    }
     .why-us {
         width: 90%;
         margin: 0 auto;
