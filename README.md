@@ -44,5 +44,12 @@ cant seem to change nav background color.
 problem 7
 
 font family is not sticking to elements unless i repeatedly use it in indivitual css ruls.
+other problems 
+
+h4 bio heading is not styling css
+media quaries error
+assets folder file paths error
+hero image ssizing 
+git pushing error
 
 

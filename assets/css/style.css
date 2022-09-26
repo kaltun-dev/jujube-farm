@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-/* general css her*/
+/* general css here*/
 html {
     font-family: 'montserrat';
 }
@@ -11,23 +11,25 @@ body {
     font-family: 'Montserrat' 'sans-serif';
 }
  
-.section-heading {
-    width:100%;
-    text-align: center;
-    color: #000000;
-    font-size: 25px;
-
-}
 #bio-heading {
     font-size:19px;
     width:100%;
     text-align: center;
-    color: #368a11;
+    color: #000000;
 }
+
 
  p {
     font-size:20px;
  }
+
+.section-heading {
+    width:100%;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+
+}
 
 /* nav section here. nav section's css was inspired by love running project*/
 
@@ -45,6 +47,7 @@ body {
 .menue {
 font-size: 110%;
 letter-spacing: 4px;
+font-weight: 200;
 }
 
 .menue li {
@@ -205,14 +208,14 @@ text-transform: uppercase;
 
 .produce-colms p{
     padding: 0;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
 } 
 
 .produce-colms h3 
 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     color: #368a11;
     text-transform: uppercase;
@@ -307,7 +310,7 @@ text-transform: uppercase;
         font-size: 50%; 
     }
     .produce-colms p {
-        font-size: 2px;
+        font-size: 16px;
  
      }
 }
