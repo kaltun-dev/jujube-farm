@@ -160,16 +160,15 @@ text-transform: uppercase;
     color: #000000;
     font-size: 30px;
     background-color: #d9ead3;
-
+    margin-bottom: 0;
 }
  .our-farm-row {
     display: flex;
     flex-direction: row;
     gap: 2rem;
     background-color: #d9ead3;
-    
+    padding-top: 40px;
  }
- 
  .our-farm-colms {
     flex: 1;
     border-radius: 10px;
@@ -244,6 +243,37 @@ text-transform: uppercase;
     text-align: center;
 }
 /*page ends here*/
+
+form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+  }
+
+.container {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+
+.input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
 
 /* footer section. this section was inspired from the love running project */
 .footer {
