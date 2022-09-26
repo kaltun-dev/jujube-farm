@@ -77,7 +77,7 @@ font-weight: 200;
 
 .hero1 {
     background-image: url('/assets/images/farm-image13.jpg');
-    width: 100%;
+    width: 90%;
     height: 40vh;
     background-size: cover;
     background-position: center;
@@ -255,49 +255,58 @@ text-transform: uppercase;
 
 .opening-times {
     
-    float: left;
+    
     text-align: center;
-    width: 33%;
+    width: 45%;
     font-family: 'montserrat';
+    margin-bottom: 1rem;
+    float: left;
 }
 
 .address {
 
     text-align: center;
-    width: 33%;
-    float: right;
+    width: 45%;
     font-family: 'montserrat';
+    margin-bottom: 1rem;
+    float: right;
 }
 
 .socials {
-    width: 33%;
-    margin: 0 auto;
-    text-align: center;
     font-family: 'montserrat';
-    padding: 30px;
-        
+    
 }
 
 .socials-list {
 
-    list-style-type: none;
+    list-style-type:none;
     text-align: center;
-
+    padding:0;
+    
 }
 
 .socials-list > li {
-    display: inline;
+    display: inline-block;
+    padding:3%;
+    text-align: center;
 }
 
 .socials-list i {
-    font-size: 100;
-    margin: 1%;
-    padding:5%;
-    color: #000000;
-}
+    font-size: 1rem;
+    color: #368a11;
+    text-align: center;
+} 
 
 .footer-heading {
     color: #368a11;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+iframe {
+    align-self: auto;
 }
 /* footer ends here*/
 
@@ -305,16 +314,17 @@ text-transform: uppercase;
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
     #logo {
-        font-size: 90%;
+        font-size: 80%;
         height: 20px;
     }
     .menue {
-        font-size: 50%; 
+        font-size: 40%; 
     }
     .produce-colms p {
         font-size: 16px;
  
      }
+
 }
 
 @media screen and (max-width: 700px) {
