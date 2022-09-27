@@ -8,7 +8,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat' 'sans-serif';
+    font-family: 'Montserrat', 'sans-serif';
 }
  
 #bio-heading {
@@ -17,7 +17,6 @@ body {
     text-align: center;
     color: #000000;
 }
-
 
  p {
     font-size:20px;
@@ -28,13 +27,11 @@ body {
     text-align: center;
     color: #000000;
     font-size: 30px;
-
 }
 
 /* nav section here. nav section's css was inspired by love running project*/
 
 #logo {
-
     color: #368a11;
     text-decoration: none;
     text-align: center;
@@ -43,19 +40,16 @@ body {
     font-size: 150%;
     float: left;
 }
-
 .menue {
 font-size: 110%;
 letter-spacing: 4px;
 font-weight: 200;
 }
-
 .menue li {
    float: right;
    list-style-type: none;
-   margin-right: 30px;
-   margin-top: 30px;
-   
+   margin-right: 20px;
+   margin-top: 20px;
 }
 .menue a {
     text-decoration: none;
@@ -74,7 +68,7 @@ font-weight: 200;
     color: #368a11;
 }
 
-/* hero image section */
+/* hero image section: hero using flex box. this section was inspired from a youtube video-  */
 
 .hero1 {
     background-image: url('/assets/images/farm-image13.jpg');
@@ -95,7 +89,6 @@ font-weight: 200;
     display: flex;
     align-items: flex-end;
 }
-    
 
 .hero3 {
 background-image: url('/assets/images/farm-image17.jpg');
@@ -119,14 +112,13 @@ text-transform: uppercase;
  /* why us section. this section was inspired from love running project*/
 .why-us {
     text-decoration: none;
-    font-family: 'Montserrat' 'sans-serif';
+    font-family: 'Montserrat', 'sans-serif';
     color:#000000;
     width:100%;
     margin: auto;
 }
  .why-us h3 {
     color: #368a11;
-    
  }
 
 .container1 {
@@ -153,7 +145,7 @@ text-transform: uppercase;
     padding-bottom: 30px;
 }
 
-/* our-farm section */
+/* our-farm section was inspired by diffrent flex-box tutorial */
 .section-heading-2 {
     width:100%;
     text-align: center;
@@ -180,14 +172,13 @@ text-transform: uppercase;
 .our-farm-colms img{
     width: 90%;
     border-radius: 10px;
-    
 }
 
 .our-farm-colms p{
     padding: 0;
 }
 
-/* produce page starts here*/
+/* produce pafe starts here: This section uses tweaked flex-box from our-farm section.*/
 
 .our-produce-title h1{
     width:100%;
@@ -242,7 +233,6 @@ text-transform: uppercase;
     margin-right: 10%;
     text-align: center;
 }
-/*page ends here*/
 
 form {
     border: 3px solid #f1f1f1;
@@ -250,14 +240,13 @@ form {
     display:flex;
     flex-direction: column;
     background-color: #d9ead3;
-
 }
+
 .container {
     padding: 20px;
     background-color: #d9ead3;
     margin: auto;
 }
-
 
 .input[type=text], input[type=submit] {
     padding: 8px;
@@ -273,6 +262,7 @@ input[type=submit] {
   input[type=submit]:hover {
     opacity: 0.8;
 }
+/*page ends here*/
 
 /* footer section. this section was inspired from the love running project */
 .footer {
@@ -292,10 +282,8 @@ input[type=submit] {
 }
 
 .opening-times {
-    
-    
     text-align: center;
-    width: 45%;
+    width: 50%;
     font-family: 'montserrat';
     margin-bottom: 1rem;
     float: left;
@@ -304,7 +292,7 @@ input[type=submit] {
 .address {
 
     text-align: center;
-    width: 45%;
+    width: 50%;
     font-family: 'montserrat';
     margin-bottom: 1rem;
     float: right;
@@ -312,7 +300,6 @@ input[type=submit] {
 
 .socials {
     font-family: 'montserrat';
-    
 }
 
 .socials-list {
@@ -320,17 +307,16 @@ input[type=submit] {
     list-style-type:none;
     text-align: center;
     padding:0;
-    
 }
 
 .socials-list > li {
     display: inline-block;
-    padding:3%;
+    padding:2%;
     text-align: center;
 }
 
 .socials-list i {
-    font-size: 1rem;
+    font-size: 90%;
     color: #368a11;
     text-align: center;
 } 
@@ -343,20 +329,42 @@ input[type=submit] {
     margin: 0;
     padding: 0;
 }
-iframe {
-    align-self: auto;
+.iframe {
+    width: 100%;
+    height: 400px;
+}
+.rights {
+    text-align: center;
+    font-size: 10px;
+    color: #368a11;
 }
 /* footer ends here*/
 
 /*@media queries*/
 
+@media screen and (min-width: 280px) and (max-width: 360px) {
+    #logo {
+        font-size: 5%;
+        height: 10px;  
+    }
+    .menue {
+        font-size: 10%; 
+    }
+    .socials-list i {
+        font-size: 70%;
+    }
+    .p {
+        font-size: 10px ;
+    }
+
+}
 @media screen and (min-width: 300px) and (max-width: 500px) {
     #logo {
-        font-size: 80%;
+        font-size: 5%;
         height: 20px;
     }
     .menue {
-        font-size: 40%; 
+        font-size: 10%; 
     }
     .hero-text {
         font-size: 10px;
@@ -379,10 +387,16 @@ iframe {
 }
 
 @media screen and (max-width: 700px) {
+    #logo {
+        height: 20px;
+        font-size: 50% ;
+    }
+    .menue {
+        font-size: 30%; 
+    }
     .our-farm-row {
         flex-direction: column;
         flex-wrap: wrap;
-        
     }
     .hero-text {
             font-size: 10px;
@@ -409,13 +423,6 @@ iframe {
     .section-heading {
         font-size: 20px;
     }
-    }
-
-@media screen and (max-width: 830px) {
-
-    .section-heading {
-        font-size: 20px;
-    }
     .why-us {
         width: 90%;
         margin: 0 auto;
@@ -437,18 +444,27 @@ iframe {
         font-size: 20px;
  
      }
+    }
+
+@media screen and (min-width: 700px) and (max-width: 960px) {
+    #logo {
+        height: 20px;
+        font-size: 60% ;
+    }
+    .menue {
+        font-size: 40%; 
+    }
+    
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 960px) and (max-width:1200px)  {
     .menue {
-        clear: left;
         float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
         line-height: 25px;
     }
     #logo {
-        height: 30px;
+        height: 20px;
+        font-size: 80% ;
     }
     .produce-colms p {
         font-size: 20px;
