@@ -1,6 +1,6 @@
 # THE JUJUBE FARM
 This is a website about a organic and sustainable community farm. The aim of this website to educate potential custumers and the local community at large about the way the sustainable way they farm is cultivated and how this method of farming is good for the soil, the animals and the customer. This website has three pages: home, pruduce and our story page.
-<img src="../images/Screenshot-9.png"/>
+<img src="assets/images/Screenshot-9.png"/>
 
 The deployed website can be viewed here. [THE JUJUBE FARM](https://kaltun-dev.github.io/jujube-farm/index.html).
 
