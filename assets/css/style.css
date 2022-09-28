@@ -350,7 +350,6 @@ input[type=submit] {
         font-size: 10%; 
         clear:left;
         float: right;
-        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
         letter-spacing: 1px;
@@ -483,5 +482,6 @@ input[type=submit] {
         font-size: 20px;
  
      }  
+     
 }
 
