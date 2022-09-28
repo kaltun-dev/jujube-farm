@@ -354,6 +354,9 @@ input[type=submit] {
         line-height: 25px;
         letter-spacing: 1px;
     }
+    .hero2 {
+        width: 100%;
+    }
     .socials-list i {
         font-size: 70%;
     }
@@ -362,9 +365,6 @@ input[type=submit] {
     }
     .hero-text {
         font-size: 7px;
-    }
-    .hero2 {
-        width: 100%;
     }
     .produce-colms p {
         font-size: 15px;
@@ -399,6 +399,7 @@ input[type=submit] {
     }
     .produce-colms p {
         font-size: 14px;
+        text-align: center;
  
      }
      .produce-colms img {
@@ -449,9 +450,6 @@ input[type=submit] {
         width: 85%; 
         margin-left: 10%;
         }    
-    .section-heading {
-        font-size: 20px;
-    }
     .why-us {
         width: 90%;
         margin: 0 auto;
@@ -471,7 +469,7 @@ input[type=submit] {
     }
     .produce-colms p {
         font-size: 15px;
-        text-align: center;
+        text-align: left;
  
      }
      .produce-coms h3 {
