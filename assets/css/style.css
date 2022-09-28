@@ -428,6 +428,9 @@ input[type=submit] {
         flex-direction: column;
         flex-wrap: wrap;
     }
+    #farm-reverse {
+        flex-direction: column-reverse;
+    }
     .hero-text {
             font-size: 10px;
         }
