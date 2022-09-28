@@ -344,12 +344,14 @@ input[type=submit] {
 
 @media screen and (min-width: 280px) and (max-width: 360px) {
     #logo {
-        font-size: 5%;
-        height: 10px;  
+        font-size: 10%;
+        height: 9px;  
     }
     .menue {
-        font-size: 10%; 
+        font-size: 20%; 
+        width: 100%;
     }
+    
     .socials-list i {
         font-size: 70%;
     }
