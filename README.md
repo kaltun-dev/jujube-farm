@@ -1,5 +1,5 @@
 # THE JUJUBE FARM
-This is a website about a organic and sustainable community farm. The aim of this website to educate potential custumers and the local community at large about the way the sustainable way they farm is cultivated and how this method of farming is good for the soil, the animals and the customer. This website has three pages: home, pruduce and our story page.
+This is a website about a organic and sustainable community farm. The aim of this website to educate potential custumers and the local community at large about the sustainable way the farm is cultivated and how this method of farming is good for the soil, the animals and the customer. This website has three pages: home, pruduce and our story page.
 <img src="assets/images/Screenshot-9.png"/>
 
 The deployed website can be viewed here. [THE JUJUBE FARM](https://kaltun-dev.github.io/jujube-farm/index.html).
@@ -40,24 +40,22 @@ The deployed website can be viewed here. [THE JUJUBE FARM](https://kaltun-dev.gi
 *	At the bottom of all pages is the footer section with opening times, adddress, social media icons and a trademark.
 
 ### 4. Skeleton
-Wireframes created with Balsamiq. The project was developed from initial wireframes and slight modifications were made during the development process to assure better usability. 
+Wireframes created with Balsamiq. The project was developed from initial wireframes and more modifications were made during the development. 
 
-Click on the below page names to see these wireframes:
+Balsamic wireframe links for the website.
 
-[Home]()
-
-
-[Quotes](https://github.com/jurica29/Project-1/blob/4ae3f1fbf933a4cb1b795c88946703d83e6a17c4/assets/images/readmeimages/quotes.jpg)
+[Home](https://github.com/kaltun-dev/jujube-farm/blob/main/assets/images/Screenshot-10.png)
 
 
-[Media](https://github.com/jurica29/Project-1/blob/4ae3f1fbf933a4cb1b795c88946703d83e6a17c4/assets/images/readmeimages/media.jpg)
+[our story](https://github.com/kaltun-dev/jujube-farm/blob/main/assets/images/Screenshot-11.png)
+
 
 ### 5. Surface
 * Colours
 
-When considering the colour theme of this project the objective was to use black and white theme in accordance with the main subject of the website. Also, beige is used for certain elements, such as text, title and timeline boxes.
+we have paid a lot of attention to the color scheme. and used 3 colors throught the website. we've chosen green to emphasise the feeling of nature and calmness. 
 
-<img src="assets/images/readmeimages/colourscheme.jpg"/>
+<img src="../images/Screenshot-12.png"/>
 
 * Font Selection
  
