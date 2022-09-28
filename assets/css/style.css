@@ -363,6 +363,9 @@ input[type=submit] {
     .hero-text {
         font-size: 7px;
     }
+    .hero2 {
+        width: 100%;
+    }
     .produce-colms p {
         font-size: 15px;
  
