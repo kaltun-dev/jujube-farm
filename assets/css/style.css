@@ -464,8 +464,13 @@ input[type=submit] {
         padding-bottom: 0px;
     }
     .produce-colms p {
-        font-size: 20px;
+        font-size: 15px;
+        text-align: center;
  
+     }
+     .produce-coms h3 {
+        font-size: 25px;
+        width: 100%;
      }
     }
 
