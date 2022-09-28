@@ -35,7 +35,7 @@ The deployed website can be viewed here. [THE JUJUBE FARM](https://kaltun-dev.gi
 *	A clear layout is in place to ensure users can immediately find all the information.
 *	The navbar is clean and simple with distinguished spacing between each of elements, which allows for easy and simple navigation.	
 *	The Home page is containing an introductory bio, a why choose us section, a more in-dept farm bio section, a map section and a footer area with address and openiong times.
-*	The produce page provides a look at all the farms produce and this that can be bought.
+*	The produce page provides a look at all the farm's produce that can be bought.
 *	The our story page contains the history and bio of the farm.
 *	At the bottom of all pages is the footer section with opening times, adddress, social media icons and a trademark.
 
@@ -44,7 +44,7 @@ Wireframes created with Balsamiq. The project was developed from initial wirefra
 
 Click on the below page names to see these wireframes:
 
-[Home](https://github.com/jurica29/Project-1/blob/4ae3f1fbf933a4cb1b795c88946703d83e6a17c4/assets/images/readmeimages/home.jpg)
+[Home]()
 
 
 [Quotes](https://github.com/jurica29/Project-1/blob/4ae3f1fbf933a4cb1b795c88946703d83e6a17c4/assets/images/readmeimages/quotes.jpg)
