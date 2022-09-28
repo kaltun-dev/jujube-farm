@@ -368,7 +368,7 @@ input[type=submit] {
  
      }
      .produce-coms h3 {
-        font-size: 25px;
+        font-size: 20px;
      }
      .produce-colms img {
         height: 200px;
@@ -409,7 +409,7 @@ input[type=submit] {
         font-size: 20px;
      }
      .produce-coms h3 {
-        font-size: 25px;
+        font-size: 20px;
      }
 }
 
@@ -470,7 +470,6 @@ input[type=submit] {
      }
      .produce-coms h3 {
         font-size: 25px;
-        width: 100%;
      }
     }
 
