@@ -34,11 +34,10 @@ The deployed website can be viewed here. [THE JUJUBE FARM](https://kaltun-dev.gi
 ### 3. Structure
 *	A clear layout is in place to ensure users can immediately find all the information.
 *	The navbar is clean and simple with distinguished spacing between each of elements, which allows for easy and simple navigation.	
-*	The Home page is containing an introductory text, a why choose us section a map and address and openiong times.
+*	The Home page is containing an introductory bio, a why choose us section, a more in-dept farm bio section, a map section and a footer area with address and openiong times.
 *	The produce page provides a look at all the farms produce and this that can be bought.
-*	The .
-*	At the bottom of all pages users can find newsletter subscription form requiring email input.
-*	In the Footer, users can find social media buttons.
+*	The our story page contains the history and bio of the farm.
+*	At the bottom of all pages is the footer section with opening times, adddress, social media icons and a trademark.
 
 ### 4. Skeleton
 Wireframes created with Balsamiq. The project was developed from initial wireframes and slight modifications were made during the development process to assure better usability. 
