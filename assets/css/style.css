@@ -446,7 +446,7 @@ input[type=submit] {
     }
     .our-farm-colms {
         width: 85%; 
-        margin-left: 10%;
+        margin-left: 12%;
     }    
     .produce-row {
         flex-direction: column;
