@@ -367,12 +367,13 @@ input[type=submit] {
      }
      .produce-colms img {
         height: 200px;
-        width: 200px;
+        width: 300px;
 }
      .our-farm-colms img {
         height: 250px;
         width: 300px;
      }
+     
      .section-heading {
         font-size: 15px;
      }
@@ -393,7 +394,7 @@ input[type=submit] {
  
      }
      .produce-colms img {
-        height: 300px;
+        height: 250px;
         width: 300px;
      }
      #bio-heading {
