@@ -149,49 +149,34 @@ No errors were found when passing through the official [W3C validator](https://j
 No warnings were found.
 
   
-  +  dev tools lighthouse
-
-<img src="assets/images/Screenshot-14.png">
-
-as it's shown on the image, the performance gategory is rather on the low side. This is due to some out of scope reasons such as javscript, iframe google maps, font awsome icons and large hero images that can't be rezised due to image quality dropping.. 
-
 
 ## Manual Testing
 
    + Desktop
 
- Mozilla Firefox, Google Chrome, Microsoft Edge: everything is working good. Page loads and all of the page features are working.
+ Everything is working good Mozilla Firefox, Google Chrome, labtop and large tablet screen . Page loads and all of the page features are working.
 
    + Mobile
  
  Tested with Samsung s21, Samsung tap A7, Samsung s22 and iPhone XR. It is responsive as intended.
 
-   + Mozilla Dev Tools
- 
- Tested for available devices, webpage works well. It is responsive as intended.
+   +  chrome dev tools lighthouse
 
- [Screenshots from a mobile phone device](https://github.com/jurica29/Nikola-Tesla/tree/main/assets/images/readmeimages/smallerscreens)
+<img src="assets/images/Screenshot-14.png">
+
+As it's shown on the image, the performance gategory is rather on the low side. This is due to some out of scope reasons such as javscript, iframe google maps, font awsome icons and large hero images that can't be rezised due to image quality dropping. However all th eother gategories are all good.
+
++ Mozila dev tools.
+I have noticed that on the small screen the dev tools is showing a rather small menue items. This is however not an issue on chrome developer tool and all other large and small screen devices we have tested. 
+
 
 + Errors
  
+During the CSS validation test, there were quite few errors. there was a one particular error where i used the same #id and same .class and a coma to seprate the two in the same div, and then used the same line of code again in the following section. As you can imagine there where arround four errors. I had to make sure there was one unique #id per div, the remove the comma and then change the css code.
 
-That error was fixed by adding the "aria-labelledby" attribute to the form, which helps the assistive technology, such as screen readers, to catalog the object, so that users can navigate between them.
-   
-The alerts for each page can be viewed on the links:
-
-[Home](https://github.com/jurica29/Project-1/blob/a9966d3ce32d81fd5693004fe262ddf207458d04/assets/images/readmeimages/homealerts.jpg)
-
-[Quotes](https://github.com/jurica29/Project-1/blob/a9966d3ce32d81fd5693004fe262ddf207458d04/assets/images/readmeimages/quotesalerts.jpg)
-
-[Media](https://github.com/jurica29/Project-1/blob/a9966d3ce32d81fd5693004fe262ddf207458d04/assets/images/readmeimages/mediaalerts.jpg)
-
-The second page has a different name in Github, instead of "quotes.html" it is named as "joinus.html". This happened due to change of plans and late realisation that the change will be permanent, so all changes made were already committed to "joinus.html".
 
 ## Future Features
 
-I would like to add more content to media page, which could provide more audiovisual information, which would be possibly positioned in three columns across the page.
-Also, maybe I would like to add more graphical addons, such as some sketches in the background, which would also need to be not limiting responsiveness of the website itself.
-Moreover, maybe I would add an extra page with specific sections on Tesla's work, which could provide more details for technically more skilled visitors.
 
 ## Project Bugs and Solutions:
 
