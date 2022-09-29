@@ -53,51 +53,48 @@ Balsamic wireframe links for the website.
 ### 5. Surface
 * Colours
 
-we have paid a lot of attention to the color scheme. and used 3 colors throught the website. we've chosen green to emphasise the feeling of nature and calmness. 
+we have paid a lot of attention to the color scheme. And used 3 colors throught the website. we've chosen green to emphasise the feeling of nature and calmness. 
 
-<img src="../images/Screenshot-12.png"/>
+<img src="assets/images/Screenshot-12.png"/>
 
 * Font Selection
  
-Title font, "Bebas Neue", was chosen from [Google Fonts](https://fonts.google.com/), while there were two default fonts used across the website: Garamond (for headers) and Arial (for paragraphs).
+we've used only one font for this website, and that was montserrat. This was done to keep uniformaty throughout the hole page and for simplicity reasons. The font was from [Google Fonts](https://fonts.google.com/).
 
 ## Existing Features 
 
-+ Navigation Bar 
++ Navigation Bar and the home page hero image
 
- Featured on all three pages, the full responsive navigation bar includes links to the Home page, Quotes and Media page and is identical in each page to allow for easy navigation and consistent user experience.
+ The navigation bar and the hero image are featured on all three pages, the full responsive navigation bar includes links to the Home page, the produce page and the our story page. And is identical in each page to allow for easy navigation and consistent user experience. There are 3 diffrent hero images in all three pages to keep things fresh and un-repetative.
 
-<img src="assets/images/readmeimages/navbar.jpg" width="1100">
+<img src="assets/images/Screenshot-2.png" width="1100">
 
-+ The home page image
-
-<img src= "assets/images/Tesla2.jpg" width="400">
-
-Tesla's portrait photo is used at the home page.
 
 + Home page
 
-Home page is consisted of three main elements:
+Home page is consisted of four main sections:
 
-1. Introduction text
+1. A little bio section
 
-A fully responsive texbox containing a short textual introduction into Tesla's life.
+a brief two line text about the farm.
 
-<img src="assets/images/readmeimages/introductionbox.jpg" width="700">
+2. A why choose us sections
 
-2. Timeline
+a simple 3 row text with fontawsome icons indicating reasons to choose the farm. 
 
-A center piece of the first page is this fully responsive timeline, which contains the most important events from Tesla's life.
+<img src="assets/images/Screenshot-3.png" width="1100">
 
-<img src="assets/images/readmeimages/timeline.jpg" width="700">
-(timeline snippet)
+3. A three image rows with text under. 
 
-3. Newsletter box *(at the bottom across 3 pages)
-
-This simple, effective and fully responsive newsletter box is located just before the footer. It is positioned in the same place across all 3 pages and allows for quick and easy newsletter subscription.
+very imformative section, talks more about the farm with images. The three rows then change to three columns that stack to become responsive.
 
 <img src="assets/images/readmeimages/newsletter.jpg">
 
+4. A google maps section and a footer section.
+this iframe google map shows exacly where the farm is and how to get there.  
+The footer section is packed with details about opening times, address, telephone and social media icone.
+
+<img src="assets/images/readmeimages/newsletter.jpg">
 + Quotes page
 
 1. Image in the center
