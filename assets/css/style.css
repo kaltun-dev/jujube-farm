@@ -448,6 +448,9 @@ input[type=submit] {
         width: 85%; 
         margin-left: 12%;
     }    
+    .our-farm-colms img {
+        width: 90%;
+    }
     .produce-row {
         flex-direction: column;
         flex-wrap: wrap;
