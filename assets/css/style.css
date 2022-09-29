@@ -428,7 +428,10 @@ input[type=submit] {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    #farm-reverse {
+    #farm-reverse-1 {
+        flex-direction: column-reverse;
+    }
+    #farm-reverse-2 {
         flex-direction: column-reverse;
     }
     .hero-text {

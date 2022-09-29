@@ -55,7 +55,7 @@ Balsamic wireframe links for the website.
 
 we have paid a lot of attention to the color scheme. And used 3 colors throught the website. we've chosen green to emphasise the feeling of nature and calmness. 
 
-<img src="assets/images/Screenshot-12.png"/>
+<img src="assets/images/Screenshot-12.png" height="500px">
 
 * Font Selection
  
@@ -72,8 +72,10 @@ we've used only one font for this website, and that was montserrat. This was don
 Home page is consisted of four main sections exculuding the menue and hero image:
 
 1. A little bio section
+
 a brief two line text about the farm.
 2. A why choose us sections
+
 a simple 3 row text with fontawsome icons indicating reasons to choose the farm. 
 
 <img src="assets/images/Screenshot-3.png">
@@ -85,6 +87,7 @@ very imformative section, talks more about the farm with images. The three rows 
 <img src="assets/images/Screenshot-4.png">
 
 4. A google maps section and a footer section.
+
 this iframe google map shows exacly where the farm is and how to get there.  
 The footer section is packed with details about opening times, address, telephone and social media icone.
 
@@ -99,18 +102,20 @@ in the small mobile and tablet screen the rows turn into columns.
 <img src="assets/images/Screenshot-7.png">
 
 2. footer section
-
-A responsive footer that is identical in all three pages.
+ 
+ A responsive footer that is identical in all three pages.
 
 + Our story page.
-this page has three sections excluding, menue, hero image and the footer sections.
 
-1. An about us long section talking about the farm and it's story.
+This page has three sections excluding, menue, hero image and the footer sections.
+
+1. A long about us section talking about the farm and it's story.
 
 <img src="assets/images/Screenshot-13.png">
  
 2. A subscribe to our news letter form 
-a simple resposive form with name, emaail and submit button.
+
+a simple resposive form with name, email and submit button.
 <img src="assets/images/Screenshot-8.png">
 
 # Testing
@@ -119,21 +124,28 @@ a simple resposive form with name, emaail and submit button.
 
   + HTML
 
-  Passing the HTML from all templates and base into the W3C Markup Validator no errors have been found [W3C validator](https://validator.w3.org/).
-  Code Validation results:
+  This website passed the w3c html validation. there where several errors but theyhave all been fixed. [W3C validator](https://validator.w3.org/).
+
+  website Code Validation results:
   
-  |[Home Page](https://github.com/jurica29/Project-1/blob/27cb79af6f944ae9b2bcc8792944be6a03e72609/assets/images/readmeimages/validation1.jpg)     |[Quotes Page](https://github.com/jurica29/Project-1/blob/27cb79af6f944ae9b2bcc8792944be6a03e72609/assets/images/readmeimages/validation2.jpg)    |[Media Page](https://github.com/jurica29/Project-1/blob/27cb79af6f944ae9b2bcc8792944be6a03e72609/assets/images/readmeimages/validation3.jpg)|
-    
+  #### The home page
+
+<img src="assets/images/Screenshot-15.png">
+  
+  #### The produce page
+
+<img src="assets/images/Screenshot-16.png">
+
+  #### The our story page
+
+<img src="assets/images/Screenshot-17.png">
+
    + CSS
 
 No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/). 
 
-CSS validation results can be viewed [here](https://github.com/jurica29/Project-1/blob/27cb79af6f944ae9b2bcc8792944be6a03e72609/assets/images/readmeimages/cssvalidation.jpg)
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
+<img src="assets/images/Screenshot-19.png">
+
 No warnings were found.
 
 ## Manual Testing
