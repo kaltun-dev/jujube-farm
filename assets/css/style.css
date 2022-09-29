@@ -360,18 +360,21 @@ input[type=submit] {
     }
     .produce-colms p {
         font-size: 15px;
- 
+     }
+
+     .farm-colms p {
+        font-size: 15px;
      }
      .produce-coms h3 {
         font-size: 20px;
      }
      .produce-colms img {
         height: 200px;
-        width: 300px;
+        width: 200px;
 }
      .our-farm-colms img {
-        height: 250px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
      }
      
      .section-heading {
@@ -396,6 +399,15 @@ input[type=submit] {
      .produce-colms img {
         height: 250px;
         width: 300px;
+     }
+     .farm-colms img {
+        height: 250px;
+        width: 300px;
+     }
+
+     .farm-colms p {
+        font-size: 14px;
+ 
      }
      #bio-heading {
         font-size: 16px;
