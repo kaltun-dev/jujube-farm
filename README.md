@@ -67,64 +67,51 @@ we've used only one font for this website, and that was montserrat. This was don
 
  The navigation bar and the hero image are featured on all three pages, the full responsive navigation bar includes links to the Home page, the produce page and the our story page. And is identical in each page to allow for easy navigation and consistent user experience. There are 3 diffrent hero images in all three pages to keep things fresh and un-repetative.
 
-<img src="assets/images/Screenshot-2.png" width="1100">
+<img src="assets/images/Screenshot-2.png">
 
-
-+ Home page
-
-Home page is consisted of four main sections:
+Home page is consisted of four main sections exculuding the menue and hero image:
 
 1. A little bio section
-
 a brief two line text about the farm.
-
 2. A why choose us sections
-
 a simple 3 row text with fontawsome icons indicating reasons to choose the farm. 
 
-<img src="assets/images/Screenshot-3.png" width="1100">
+<img src="assets/images/Screenshot-3.png">
 
 3. A three image rows with text under. 
 
 very imformative section, talks more about the farm with images. The three rows then change to three columns that stack to become responsive.
 
-<img src="assets/images/readmeimages/newsletter.jpg">
+<img src="assets/images/Screenshot-4.png">
 
 4. A google maps section and a footer section.
 this iframe google map shows exacly where the farm is and how to get there.  
 The footer section is packed with details about opening times, address, telephone and social media icone.
 
-<img src="assets/images/readmeimages/newsletter.jpg">
-+ Quotes page
+<img src="assets/images/Screenshot-6.png">
 
-1. Image in the center
++ produce page
 
-Tesla's portrait is in the top centre position of the page.
+1. A produce/products area
+this page has 6 rows containing products from the farm in the form of images and text. 
+in the small mobile and tablet screen the rows turn into columns. 
 
-<img src="assets/images/Tesla1.jpg">
+<img src="assets/images/Screenshot-7.png">
 
-2. Quotes
+2. footer section
 
-These quote boxes are positioned vertically across the centre of the page, fully responsive on smaller screen sizes.
+A responsive footer that is identical in all three pages.
 
-<img src="assets/images/readmeimages/quotesboxes.jpg" width="400">
++ Our story page.
+this page has three sections excluding, menue, hero image and the footer sections.
 
-+ Media page 
+1. An about us long section talking about the farm and it's story.
 
-1. Videos in containers (from Youtube)
-
-These documentaries and other videos are embedded Youtube videos. They are positioned vertically across the centre of the page, in fully responsive containers.
-
-<img src="assets/images/readmeimages/videos.jpg" width="400">
-
-(video containers snippet)
-
-+ Footer 
-
-The footer section includes links to visit potential social media pages.
-The links will open in a new tab to keep users on the page, while allowing easy navigation to share content. 
-
-<img src="assets/images/readmeimages/footer.jpg">
+<img src="assets/images/Screenshot-13.png">
+ 
+2. A subscribe to our news letter form 
+a simple resposive form with name, emaail and submit button.
+<img src="assets/images/Screenshot-8.png">
 
 # Testing
 
