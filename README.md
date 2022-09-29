@@ -1,5 +1,5 @@
 # THE JUJUBE FARM
-This is a website about a organic and sustainable community farm. The aim of this website to educate potential custumers and the local community at large about the sustainable way the farm is cultivated and how this method of farming is good for the soil, the animals and the customer. This website has three pages: home, pruduce and our story page.
+This is a website for a organic and sustainable community farm. The aim of this website to raise awareness about the farm to potential custumers and the local community at large. To educate them about the sustainable way the farm is cultivated and how this method of farming is good for the soil, the animals and the customer. This website has three pages; a home page, a pruduce page and our story page.
 <img src="assets/images/Screenshot-9.png"/>
 
 The deployed website can be viewed here. [THE JUJUBE FARM](https://kaltun-dev.github.io/jujube-farm/index.html).
@@ -16,7 +16,7 @@ The deployed website can be viewed here. [THE JUJUBE FARM](https://kaltun-dev.gi
 1.	the information to be clear and informative.
 2.	the information to be sufficiently various for all users.
 3.	the website be simple to navigate.
-4.  the user (potential customer) to have call of action section. 
+4.  the user (potential customer) to have call of action area. 
 
 ### 1. Strategy 
  * Project Purpose
@@ -28,12 +28,11 @@ The deployed website can be viewed here. [THE JUJUBE FARM](https://kaltun-dev.gi
  * I wanted a natural and bright color scheme.
  * I wanted my content to be clear for all users. 
  * A site that is visually appealing on most devices.
- * Information about:
-     *  The farm, it's prodcts and it's story.
+ * Information about the farm, it's prodcts and it's story.
 
 ### 3. Structure
 *	A clear layout is in place to ensure users can immediately find all the information.
-*	The navbar is clean and simple with distinguished spacing between each of elements, which allows for easy and simple navigation.	
+*	The navbar is clean and simple with distinguished spacing between each of menue links, which allows for easy and simple navigation.	
 *	The Home page is containing an introductory bio, a why choose us section, a more in-dept farm bio section, a map section and a footer area with address and openiong times.
 *	The produce page provides a look at all the farm's produce that can be bought.
 *	The our story page contains the history and bio of the farm.
@@ -63,7 +62,7 @@ we've used only one font for this website, and that was montserrat. This was don
 
 ## Existing Features 
 
-+ Navigation Bar and the home page hero image
++ Landing page Navigation Bar and the hero image
 
  The navigation bar and the hero image are featured on all three pages, the full responsive navigation bar includes links to the Home page, the produce page and the our story page. And is identical in each page to allow for easy navigation and consistent user experience. There are 3 diffrent hero images in all three pages to keep things fresh and un-repetative.
 
@@ -73,35 +72,36 @@ Home page is consisted of four main sections exculuding the menue and hero image
 
 1. A little bio section
 
-a brief two line text about the farm.
+A brief two line text about the farm.
+
 2. A why choose us sections
 
-a simple 3 row text with fontawsome icons indicating reasons to choose the farm. 
+A simple 3 row text with fontawsome icons indicating reasons to choose the farm. 
 
 <img src="assets/images/Screenshot-3.png">
 
 3. A three image rows with text under. 
 
-very imformative section, talks more about the farm with images. The three rows then change to three columns that stack to become responsive.
+Very imformative section, talks more about the farm with images. The three rows then change to three columns that stack to become responsive.
 
 <img src="assets/images/Screenshot-4.png">
 
 4. A google maps section and a footer section.
 
-this iframe google map shows exacly where the farm is and how to get there.  
+This iframe google map shows exacly where the farm is and how to get there.  
 The footer section is packed with details about opening times, address, telephone and social media icone.
 
 <img src="assets/images/Screenshot-6.png">
 
-+ produce page
++ Produce page
 
 1. A produce/products area
-this page has 6 rows containing products from the farm in the form of images and text. 
-in the small mobile and tablet screen the rows turn into columns. 
+
+This page has 6 rows containing products from the farm in the form of images and text. In the small mobile and tablet screen the rows turn into columns. 
 
 <img src="assets/images/Screenshot-7.png">
 
-2. footer section
+2. Footer section
  
  A responsive footer that is identical in all three pages.
 
@@ -109,13 +109,13 @@ in the small mobile and tablet screen the rows turn into columns.
 
 This page has three sections excluding, menue, hero image and the footer sections.
 
-1. A long about us section talking about the farm and it's story.
+1. A long about-us section talking about the farm and it's story.
 
 <img src="assets/images/Screenshot-13.png">
  
 2. A subscribe to our news letter form 
 
-a simple resposive form with name, email and submit button.
+A simple resposive form with name, email and submit button.
 <img src="assets/images/Screenshot-8.png">
 
 # Testing
@@ -124,9 +124,9 @@ a simple resposive form with name, email and submit button.
 
   + HTML
 
-  This website passed the w3c html validation. there where several errors but theyhave all been fixed. [W3C validator](https://validator.w3.org/).
+  This website passed the w3c html validation. There were several errors but they have all been fixed. [W3C validator](https://validator.w3.org/).
 
-  website Code Validation results:
+  Validation results:
   
   #### The home page
 
@@ -146,9 +146,7 @@ No errors were found when passing through the official [W3C validator](https://j
 
 <img src="assets/images/Screenshot-19.png">
 
-No warnings were found.
-
-  
+No warnings were found.  
 
 ## Manual Testing
 
@@ -158,7 +156,7 @@ No warnings were found.
 
    + Mobile
  
- Tested with Samsung s21, Samsung tap A7, Samsung s22 and iPhone XR. It is responsive as intended.
+ Tested with Samsung s21, Huawei T3, Samsung tap A7, Samsung s22, Galaxy tab s8 ultra, and iPhone XR. It is responsive as intended.
 
    +  chrome dev tools lighthouse
 
@@ -172,38 +170,38 @@ I have noticed that on the small screen the dev tools is showing a rather small 
 
 + Errors
  
-During the CSS validation test, there were quite few errors. there was a one particular error where I used the same #id and same .class and a coma to seprate the two in the same div, and then used the same line of code again in the following section. As you can imagine there where arround four errors. I had to make sure there was one unique #id per div, the remove the comma and then change the css code.
+During the CSS validation test, there were quite few errors. there was a one particular error where I used the same #id and same .class and a coma to seprate the two in the same div, and then used the same line of code again in the following section. As you can imagine there were around four errors. I had to make sure there was one unique #id per div, remove the comma and then change the css code.
 
 
 ## Future Features
-I would like to add a carousal feature on the main pain so that images can be swiped.
-I would also like to add a video and galery section that says "tour the farm".
-I would also like to add a shopping page that user can buy the produce boxes from.
-I would also like to add one more page about the farms cafe. 
-and finally if I where to do similar project in the future I would code the whole website from head to toes on flex-box. it's just so much easier.
+1. I would like to add a carousal feature on the landing page so that images can be swiped.
+2. I would also like to add a video and galery section that says "tour the farm".
+3. I would also like to add a shopping page that user can buy the produce boxes from.
+4. I would also like to add one more page about the farms cafe. 
+5. Finally if I where to do similar project in the future I would code the whole website from head to toes using flex-box. it's just so much easier.
 
 ## Project Bugs and Solutions:
-No known bugs for now. But there quite few problems at every stage. whenever i fixed a problem there was an another. Here are some.
+No known bugs now. But there were quite few problems at every stage. Whenever i fixed a problem there was an another. Here are some.
 
-1. css wasn't beeing applied to html page in the browsser i've linked they style sheets in all the pages but it wasnt linking i've tried stack and google but found nothing. In the end solved problem by git add, git commit and git push.
+1. CSS wasn't beeing applied to html page in the browsser i've linked they style sheets in all the pages but it wasnt linking i've tried stack and google but found nothing. In the end solved problem by git add, git commit and git push.
 
-2. logo h1 not displaying styling as per css rules.
+2. Logo h1 not displaying styling as per css rules.
  So i created new menue class and made display inline block. 
 
 3. Hero image is too large taking the whole page and even more. I've googled and change max-width to 100% and made height- auto but that changed nothing. i tried to look at the love running project for help but that didnt work too. so I found a youtube video about the hero image and made some adjustments to the css again. That method didnt work either. so chose anothero picure and rezised it to 1600 by 500px. That sort of sorted the hero picture. but even after it was still a big mess, image was still rather too large. I moved on to the other sections and on the next day i finally finally after some reasearch changed height to 69vh and width to 100%. and it worked finally, for now. But it was not responsive.
 
-4. container3 center div icon is not diplaying even though the other icons are displaying fine.
+4. Container3 center div icon is not diplaying even though the other icons are displaying fine.
 After some research I have replaced it with another icon and that seemed to have worked. 
 
-5. footer background picture wont fit the whole screen. i then removed the padding 33px by using the inspect element and it worked.
+5. Footer background picture wont fit the whole screen. i then removed the padding 33px by using the inspect element and it worked.
 
 6. Can't seem to change nav background color. After some thinking it really wasnt needed. 
 
-7. Font family is not sticking to elements unless I repeatedly use it in indivitual css ruls. My mentor suggested i I set general html styling on top of the CSS folder.
+7. Font family is not sticking to elements unless I repeatedly use it on indivitual css ruls. My mentor suggested I set general html styling on top of the CSS folder.
 
 8. Web page wasnt being responive in small 300 to 400px screens. After 2 days with help from my mentor i found out the problem was the why-us h3. which had a padding of 30px, that went beyong page width. making the entire page unresponsive. This same problem come back later on another page but this time i wasnt been fooled again. 
 
-9. there was huge problem with the media queries. there was a error message on the terminal and i coudnt even commit. i googled and there was nothing. thankfully the problem was spotted after some help from the slack code institute community. All along it was just a slash and semi colon before the media queries. 
+9. There was huge problem with the media queries. there was a error message on the terminal and i coudnt even commit. i googled and there was nothing. thankfully the problem was spotted after some help from the slack code institute community. All along it was just a slash and semi colon before the media queries. 
 
  10. Some other problems
 H4 bio heading is not styling css
@@ -225,7 +223,7 @@ The live link can be found [here](https://kaltun-dev.github.io/jujube-farm/index
 ### Forking the GitHub Repository:
 
 By forking the GitHub Repository you will be able to make a copy of the original repository on your own GitHub account allowing you to view and/or make changes without affecting the original repository by using the following steps:
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jurica29/Nikola-Tesla)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/kaltun-dev/jujube-farm)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
@@ -246,7 +244,7 @@ $ git clone https://github.com/kaltun-dev/jujube-farm
 
 ### Content
 
-All content was written using sources as: 
+All content was written using sources and background information from: 
 
 - [THE COMBE FARM](https://www.coombefarmorganic.co.uk/)
 
@@ -260,20 +258,24 @@ All content was written using sources as:
 
 ### Work based in other code
 
-+ [W3 Schools](https://www.w3schools.com/) - used daily for variety of concepts, problems and deeper understanding of both HTML and CSS.
-+ [kevin powels Youtube channel](https://www.youtube.com/watch?v=u044iM9xsWU&list=LL&index=4&t=1157s) - Used for learning about flexbox..
++ [W3 Schools](https://www.w3schools.com/) - used daily for variety of problems and for deeper understanding of both HTML and CSS concepts.
++ [kevin powels Youtube channel](https://www.youtube.com/watch?v=u044iM9xsWU&list=LL&index=4&t=1157s) - Amazing flex-box tutorial, used it to understand flexbox..
 + [mohamed haroon Youtube channel](https://www.youtube.com/watch?v=qPvekXHaESc&list=LL&index=2) - Used for hero image using flexbox..
-+ ["Love Running" footer code](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/12ba169db7b34b82b137edd825af6a02/) - for the footer and why choose us section. 
-+ ["easy toturials youtube channel](https://www.youtube.com/watch?v=oYRda7UtuhA&list=LL&index=6&t=415s) - for inspiring our-farm and our- produce section using flexbox.
++ ["Love Running" footer code](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/12ba169db7b34b82b137edd825af6a02/) - Used for the footer and why choose us section. 
++ ["easy toturials youtube channel](https://www.youtube.com/watch?v=oYRda7UtuhA&list=LL&index=6&t=415s) used for our-farm and our- produce section using flexbox.
 
 
 ### Acknowledgements
 
--	To the Code Institute for the course material, lectures and their grounded guidlines for the projects.  
+-	To the Code Institute for the course material, lectures and their grounded guidlines for the project.  
+
 -	To the Slack community for being so helpful despite asking 3 or more questions everyday. Thank you for the dozens of informative groups.  
+
 - To [W3schools](https://www.w3schools.com/)  for general reference regarding sytax, tags, elements and everything in between.
-- To my mentor Rahul, being so supportive in many ways, postive and encouraging.
--	And finally to my three beautiful children, for being patient & understanding whilst i was doing this project day and night.
+
+- To my mentor Rahul, for being supportive in many ways, postive and encouraging throughout the project.
+
+-	And finally to my three beautiful children, for being patient & understanding  with me, whilst i was doing this project day and night.
 
 
 
