@@ -148,6 +148,14 @@ No errors were found when passing through the official [W3C validator](https://j
 
 No warnings were found.
 
+  
+  +  dev tools lighthouse
+
+<img src="assets/images/Screenshot-14.png">
+
+as it's shown on the image, the performance gategory is rather on the low side. This is due to some out of scope reasons such as javscript, iframe google maps, font awsome icons and large hero images that can't be rezised due to image quality dropping.. 
+
+
 ## Manual Testing
 
    + Desktop
@@ -156,7 +164,7 @@ No warnings were found.
 
    + Mobile
  
- Tested with Huawei P30, Samsung A52, Huawei P40 and iPhone 12. It is responsive as intended.
+ Tested with Samsung s21, Samsung tap A7, Samsung s22 and iPhone XR. It is responsive as intended.
 
    + Mozilla Dev Tools
  
@@ -165,8 +173,7 @@ No warnings were found.
  [Screenshots from a mobile phone device](https://github.com/jurica29/Nikola-Tesla/tree/main/assets/images/readmeimages/smallerscreens)
 
 + Errors
-
-On the 3 pages, Wave showed 1 error that can be viewed [here](https://github.com/jurica29/Nikola-Tesla/tree/main/assets/images/readmeimages//wave.jpg). 
+ 
 
 That error was fixed by adding the "aria-labelledby" attribute to the form, which helps the assistive technology, such as screen readers, to catalog the object, so that users can navigate between them.
    
